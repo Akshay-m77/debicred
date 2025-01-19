@@ -138,7 +138,7 @@ h6,
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark);
+    color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -165,7 +165,7 @@ h6,
     .navbar-dark .navbar-nav .nav-link.show,
     .sticky-top.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: var(--dark);
+        color: #fff;
     }
 
     .navbar-dark .navbar-brand h1 {
@@ -185,7 +185,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #FFFFFF;
+        background: #183661;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
