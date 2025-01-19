@@ -9,7 +9,37 @@
     <link rel="icon" type="image/x-icon" href="img/favicon/favicon-32x32.png">
     
 <style>
-    .custom-text-color{
+/* Default styles for larger screens */
+.carousel-caption h4 {
+    font-size: 24px; /* Adjust as needed */
+}
+
+.carousel-caption h3 {
+    font-size: 48px; /* Adjust as needed */
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    .carousel-caption h4 {
+        font-size: 18px; /* Smaller font for mobile */
+    }
+
+    .carousel-caption h3 {
+        font-size: 32px; /* Smaller font for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-caption h4 {
+        font-size: 16px; /* Even smaller font for very small screens */
+    }
+
+    .carousel-caption h3 {
+        font-size: 28px; /* Adjust for very small screens */
+    }
+}
+
+.custom-text-color{
         
     background-color: #9cb93b;
     }
