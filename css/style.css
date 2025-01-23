@@ -12,13 +12,6 @@
 }
 
 /* Mobile view adjustments */
-@media (max-width: 768px) {
-    .company-logo {
-        width: 150%;  /* Adjust the image size for smaller screens */
-        height: 100px;  /* Optionally adjust the height for mobile */
-    }
-}
-
 /*** Spinner ***/
 .spinner {
     width: 40px;
