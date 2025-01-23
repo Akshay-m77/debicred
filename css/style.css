@@ -18,6 +18,12 @@
         height: 150px;  /* Optionally adjust the height for mobile */
     }
 }
+@media (max-width: 360px) {
+    .company-logo {
+        width: 100%;  /* Adjust the image size for smaller screens */
+        height: 150px;  /* Optionally adjust the height for mobile */
+    }
+}
 .footer-logo {
     /* width: 150px; Adjust the size of the logo
     height: auto; */
