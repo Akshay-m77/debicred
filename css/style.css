@@ -6,15 +6,17 @@
     --dark: #091E3E;
 }
 .company-logo {
-    width: 250%;
+    width: 250%;  /* Default size for larger screens */
     height: 120px;
-    /* margin: 0;
-    padding: 0;
-    border: none; */
-    /* display: block; */
     object-fit: cover;
-    /* object-position: 50% 50%; */
-    /* background-color: transparent; */
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .company-logo {
+        width: 150%;  /* Adjust the image size for smaller screens */
+        height: 100px;  /* Optionally adjust the height for mobile */
+    }
 }
 
 /*** Spinner ***/
