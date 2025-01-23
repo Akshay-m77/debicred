@@ -5,7 +5,17 @@
     --light: #EEF9FF;
     --dark: #091E3E;
 }
-
+.company-logo {
+    width: 250%;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: block;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-color: transparent;
+}
 
 /*** Spinner ***/
 .spinner {
